@@ -75,9 +75,9 @@
                     <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Italic="True" Text="Gender"></asp:Label>
                 </td>
                 <td>
-                    <asp:RadioButtonList ID="gender" runat="server" Font-Names="Arial" Font-Size="Medium" ForeColor="#000066" RepeatDirection="Horizontal">
-                        <asp:ListItem Selected="True" Value="M">Male</asp:ListItem>
-                        <asp:ListItem Value="F">Female</asp:ListItem>
+                    <asp:RadioButtonList ID="gender" runat="server">
+                        <asp:ListItem>male</asp:ListItem>
+                        <asp:ListItem>female</asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
                 <td>&nbsp;</td>
@@ -179,9 +179,9 @@
                     <asp:Label ID="Label13" runat="server" Font-Bold="True" Font-Italic="True" Text="Bus"></asp:Label>
                 </td>
                 <td>
-<asp:RadioButtonList ID="bus" runat="server" Font-Names="Arial" Font-Size="Medium" ForeColor="#000066" RepeatDirection="Horizontal">
-                        <asp:ListItem Selected="True" Value="M">yes</asp:ListItem>
-                        <asp:ListItem Value="F">no</asp:ListItem>
+                    <asp:RadioButtonList ID="bus" runat="server">
+                        <asp:ListItem>yes</asp:ListItem>
+                        <asp:ListItem>no</asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
                 <td>&nbsp;</td>
@@ -199,7 +199,7 @@
             </tr>
             <tr>
                 <td class="auto-style6" colspan="2">
-                    <asp:Label ID="labmsg" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblmsg" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style6"></td>
                 <td class="auto-style6"></td>
